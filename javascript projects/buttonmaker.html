@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style1.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap" rel="stylesheet" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>button maker</title>
+</head>
+
+<body>
+  <h1 style="color:black;">Button Maker</h1>
+  <p style="color:black;">Create an Beautiful Button Using this Button Maker</p>
+   <div class="rel">
+  <div class="parent"> 
+    <form style="margin-left:4%;">
+
+
+      <div style="display: flex; flex-direction: column; padding:4%;">
+          <label for="width">Width:</label>
+          <input type="text" onkeyup="fun()" class="form-control" id="width" placeholder="width in px">
+      </div>
+
+
+      <div style="display: flex; flex-direction: column;padding:4%;">
+          <label for="height">Height:</label>
+          <input type="text" onkeyup="fun()" class="form-control" id="height" placeholder="Height in px">
+      </div>
+      <div style="display: flex; flex-direction: column;padding:4%;">
+          <label for="size">Font Size:</label>
+          <input type="text" onkeyup="fun()" class="form-control" id="size" placeholder="Font Size in px">
+      </div>
+
+      <div style="display: flex;flex-direction: column; padding:4%;">
+        <label for="size">Text :</label>
+
+        <input type="text" onkeyup="fun()" class="form-control" id="tex1" placeholder="text">
+      </div>
+      <div style="display: flex;flex-direction: column;padding:4%;">
+        <label for="color">Color:</label>
+
+        <input type="text"  onkeyup="fun()" class="form-control" id="color" placeholder="Font color">
+      </div>
+      <div style="display: flex;flex-direction: column; padding:4%;">
+        <label for="color">Border Color:</label>
+
+        <input type="text" onkeyup="fun()" class="form-control" id="bor" placeholder="border color">
+      </div>
+      <div style="display: flex;flex-direction: column; padding:4%;">
+        <label for="back">Background Color:</label>
+
+        <input type="text" onkeyup="fun()" class="form-control" id="back" placeholder="Background color">
+      </div>
+      <div style="display: flex;flex-direction: column; padding:4%;">
+        <label for="radius">Radius:</label>
+
+        <input type="text" onkeyup="fun()" class="form-control" id="radius" placeholder="Radius in px">
+      </div> 
+      <br>
+
+    </form>
+  </div>
+    <div class="btr">
+      <button id="btn" class="btr2">Hello</button>
+    </div>
+     <div style="display:none;" id="dnone">
+     <div class="bt">
+       <button id="bt11" class="btr2">Hello Guys</button>
+     </div>
+     </div>
+ 
+
+
+
+     <button class="btn surp" id="btn1">
+        <svg height="24" width="24" fill="#FFFFFF" viewBox="0 0 24 24" data-name="Layer 1" id="Layer_1" class="sparkle">
+            <path d="M10,21.236,6.755,14.745.264,11.5,6.755,8.255,10,1.764l3.245,6.491L19.736,11.5l-6.491,3.245ZM18,21l1.5,3L21,21l3-1.5L21,18l-1.5-3L18,18l-3,1.5ZM19.333,4.667,20.5,7l1.167-2.333L24,3.5,21.667,2.333,20.5,0,19.333,2.333,17,3.5Z"></path>
+        </svg>
+
+        <span class="text">Example</span>
+    </button>
+  </div> 
+  <!-- <button class="btn11">Button 1</button>
+  <button class="btn22">Button 2</button>
+  <button class="btn33">Button 3</button>
+ -->
+  <script src="script1.js"></script>
+</body>
+
+</html>

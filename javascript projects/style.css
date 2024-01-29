@@ -1,0 +1,14 @@
+#box{
+  display:flex;
+
+  flex-wrap:wrap;
+
+}
+.btn1{
+  flex-basis:300;
+  flex-grow:1;
+
+}
+body{
+  background-color: #E0E0E0;
+}
